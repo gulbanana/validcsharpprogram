@@ -3,12 +3,6 @@ using System.Dynamic;
 
 class ThisIsPerfectlyOkay
 {
-    private struct P2Node
-    {
-        bool IsProblemSolved => true; // no Next node
-        int Index => 0;
-    }
-
     static void Main(string[] args)
     {
         // uses a dynamically built dictionary as a node type
